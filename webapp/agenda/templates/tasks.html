@@ -1,0 +1,12 @@
+{% if tasks %}
+<strong>Today:</strong><br />
+<ul>
+    {% for task in tasks %}
+
+        <li>{{ task.text }}</li>
+
+    {% endfor %}
+</ul>
+{% else %}
+No TODOs today :)
+{% endif %}
