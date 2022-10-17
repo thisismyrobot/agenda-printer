@@ -4,7 +4,11 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+flask-webtest = "*"
 hupper = "*"
+pytest = "*"
+httpretty = "*"
+mock = "*"
 
 [packages]
 waitress = "*"

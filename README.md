@@ -95,6 +95,12 @@ Production:
     pipenv run waitress-serve agenda:app
 ```
 
+Tests:
+
+```bash
+    pipenv run python -m pytest
+```
+
 ## How it works
 
 The web app generates very simple HTML on the root (`/`) path. This route is
