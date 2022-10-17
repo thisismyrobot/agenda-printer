@@ -4,6 +4,8 @@ Solving about 1000 problems with TODO lists.
 
 ![](doc/printed.png)
 
+[YouTube video](https://www.youtube.com/watch?v=5Nb2K5nm6Xg)
+
 This project prints out a daily agenda of tasks (and some other bits and
 pieces) to keep you focussed on the important stuff.
 
