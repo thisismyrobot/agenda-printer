@@ -26,7 +26,8 @@ The second inspiration for this project was reading Adam Savage's [Every
 Tool's a
 Hammer](https://www.amazon.com.au/Every-Tools-Hammer-Life-What/dp/1982113472).
 His approach to lists and how he indicates task progress by diagonally filling
-in a box beside the task blew my mind.
+in a box beside the task blew my mind. I'm a huge fan of physical (on-paper)
+lists so this was some wonderful confirmation bias :D
 
 ## Philosophy
 
