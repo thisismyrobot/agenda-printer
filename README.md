@@ -41,12 +41,12 @@ adjust, but otherwise I don't need to view the month ahead.
 There are a number of problems this project solved for me (I've been using it
 for more than 6 months now):
 
- - Never remembering to do intermittent important tasks (when did you last remember to check the smoke alarm batteries?!): Tasks like the this and cleaning the AC filters etc are now in my calendar on a reoccurring schedule.
+ - Never remembering to do intermittent important tasks (when did you last remember to check the smoke alarm batteries?!): Tasks like the this and cleaning the AC filters etc are now in my calendar on a reoccurring schedule, and I can forget about them knowing they will just happen.
  - Tracking task progress: This is obvious, but I can fill in the boxes diagonally as a I progress them.
- - Always on a screen: I do like having breaks from screens, and I can do so without losing track of what's planned for a day.
+ - Always on a screen: I do like having breaks from screens, and I can do so without losing track of what's planned for a day. Ducking back to the list and filling in a square is a much nicer and lower friction experience than using an app.
  - Planning too many tasks in a single day, so you don't finish them: Fortnightly reviews of my calendar makes this near impossible to achieve.
- - Feeling overwhelmed by a structured future or full calendar: the fortnightly reviews achieve this in two ways. Firstly, I only see a complete overview each fortnight. Secondly, if during a review I feel over-scheduled, that's a reflection of my commitments and I need to say no more often. The daily print-out also focusses me on that single day, and I can ignore the rest of the things that might be coming up.
- - Tasks never moving off a "TODO" list because you haven't assigned them a block of your future: With every task being assigned a day (and sometimes even a time) I am explicitly making them part of my future use of time.
+ - Feeling overwhelmed by a structured future or full calendar: the fortnightly reviews achieve this in two ways. Firstly, I only see a complete overview each fortnight, not each day (although any agenda notification would achieve this). Secondly, if during a review I feel over-scheduled, that's a reflection of my commitments and I need to say no more often. The daily print-out also focusses me on that single day, and I can ignore the rest of the things that might be coming up.
+ - Tasks never moving off a "TODO" list because you haven't assigned them a block of your future: With every task being assigned a day (and sometimes even a time) I am explicitly making them part of my future use of time. In reality, that means I commit to less, but actually complete a higher percentage of those commitments, achieving more overall.
  - Tracking dynamic goals (i.e. running 100m further each week): The dynamic tasks service allows you to put simple events in calendar - e.g. "exercise" - and to have them re-written to follow a goal or plan.
 
 ## Disclaimer
@@ -66,13 +66,13 @@ too.
 Development:
 
 ```bash
-    pipenv install --dev
+pipenv install --dev
 ```
 
 Production:
 
 ```bash
-    pipenv install
+pipenv install
 ```
 
 ### ESP-32 Program
@@ -87,20 +87,20 @@ Production:
 Development:
 
 ```bash
-    pipenv run python webapp\test_server.py --reload
+pipenv run python webapp\test_server.py --reload
 ```
 
 Production:
 
 ```bash
-    cd webapp
-    pipenv run waitress-serve agenda:app
+cd webapp
+pipenv run waitress-serve agenda:app
 ```
 
 Tests:
 
 ```bash
-    pipenv run python -m pytest
+pipenv run python -m pytest
 ```
 
 ## How it works
