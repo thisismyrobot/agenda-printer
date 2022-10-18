@@ -121,6 +121,10 @@ printer-specific escape commands (using an HTML event parser):
 Using a scheduled power point controller, the ESP-32 simply loads the print
 path at 6am, sending it straight to the printer.
 
+## Issues
+
+  - The box for task progress isn't aligned well. You cannot print below the baseline and when I make it the size of the font it looks too small. If I fix it in my version I'll update this repo to match.
+
 ## Hardware
 
 I'm using:
